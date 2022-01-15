@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hazelcast.method.synchronization'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.6.1'
+
+    implementation group: 'com.hazelcast', name: 'hazelcast', version: '5.0.2'
+}
